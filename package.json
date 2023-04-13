@@ -1,8 +1,11 @@
 {
   "name": "my-app",
+  "author": "Nahuel Gómez",
+  "description": "A new React Native project",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
+    "dev": "npx expo start --tunnel",
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
